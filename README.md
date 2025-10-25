@@ -71,4 +71,59 @@ node "D:\nodejs\nodered\node_modules\node-red\red.js" -u "D:\nodejs\nodered\work
 
 # Bài làm
 
+## 1. Cài đặt Apache web server
+- Truy cập trang web: https://httpd.apache.org/ để truy cập Apache
+<img width="1919" height="1027" alt="image" src="https://github.com/user-attachments/assets/6383bd4a-8313-4566-b5fe-30247c74dcf4" />
+- Tải bản 32bit hoặc 64bit để phù hợp cho windows:
+<img width="1919" height="929" alt="image" src="https://github.com/user-attachments/assets/eb8ab515-d3c2-4216-8694-d6d107d8f699" />
+- Đặt Apache Win64 tại ổ D:
+<img width="1919" height="1020" alt="image" src="https://github.com/user-attachments/assets/e3e26776-fea0-4cb9-83b9-ad09de5c5ba8" />
+- Cấu hình các file  lấy domain: vuvietanh.com:
+<img width="1919" height="981" alt="image" src="https://github.com/user-attachments/assets/e9aba60d-29b3-4784-b02f-8a696c618774" />
+- Fake ip 127.0.0.1 cho domain web:
+<img width="1919" height="1020" alt="image" src="https://github.com/user-attachments/assets/e84bc270-5d8a-4856-b362-a1fa1d9124e4" />
+
+## 2. Cài đặt nodejs và nodered
+- Cài đặt Nodejs:
+<img width="460" height="352" alt="image" src="https://github.com/user-attachments/assets/2580324d-2b3f-493f-820f-130a8514101a" />
+- Cài đặt Nodered:
+<img width="1919" height="1024" alt="image" src="https://github.com/user-attachments/assets/d6d7cb8c-49c3-40be-a001-374031ecf116" />
+- Cài đặt service và chạy service `a1-nodered`:
+<img width="1065" height="681" alt="image" src="https://github.com/user-attachments/assets/aa99b38f-50f6-4b35-b43b-6203df0f3f97" />
+
+## 3. Tạo csdl trên mssql (sql server 2022), nhớ các thông số kết nối: ip, port, username, password, db_name, table_name
+- CSDL trong bài:
+<img width="718" height="311" alt="image" src="https://github.com/user-attachments/assets/f9f29140-59bd-4181-a196-612b9ff2c5b5" />
+
+<img width="926" height="236" alt="image" src="https://github.com/user-attachments/assets/45b72c30-aa18-4d1f-9eed-514159779ecf" />
+
+## 4. Cài đặt thư viện trên nodered
+- Truy cập Nodered bằng URL: http://localhost:1880
+<img width="1919" height="865" alt="image" src="https://github.com/user-attachments/assets/03e91cb5-3a48-4c82-bf89-64e926c4ebe5" />
+- Cài đặt các thư viện:
+<img width="1476" height="757" alt="image" src="https://github.com/user-attachments/assets/9d2e1bc5-bc62-48db-ba1d-aeb1d7aa9f98" />
+- Chỉnh sửa file: "setting.js" ở D:\nodejs\nodered\work\settings.js
+<img width="1008" height="274" alt="image" src="https://github.com/user-attachments/assets/fe29c26c-b3b8-4f34-992a-28fb273a0450" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
