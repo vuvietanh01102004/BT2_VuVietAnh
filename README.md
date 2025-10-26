@@ -72,43 +72,117 @@ node "D:\nodejs\nodered\node_modules\node-red\red.js" -u "D:\nodejs\nodered\work
 # Bài làm
 
 ## 1. Cài đặt Apache web server
+
+- Vô hiệu hoá IIS:
+<img width="662" height="314" alt="image" src="https://github.com/user-attachments/assets/97ec8bf4-50e1-4b12-887f-a294a4352fa8" />
+
 - Truy cập trang web: https://httpd.apache.org/ để truy cập Apache
 <img width="1919" height="1027" alt="image" src="https://github.com/user-attachments/assets/6383bd4a-8313-4566-b5fe-30247c74dcf4" />
+
 - Tải bản 32bit hoặc 64bit để phù hợp cho windows:
 <img width="1919" height="929" alt="image" src="https://github.com/user-attachments/assets/eb8ab515-d3c2-4216-8694-d6d107d8f699" />
+
 - Đặt Apache Win64 tại ổ D:
 <img width="1919" height="1020" alt="image" src="https://github.com/user-attachments/assets/e3e26776-fea0-4cb9-83b9-ad09de5c5ba8" />
+
 - Cấu hình các file  lấy domain: vuvietanh.com:
-<img width="1919" height="981" alt="image" src="https://github.com/user-attachments/assets/e9aba60d-29b3-4784-b02f-8a696c618774" />
+<img width="1916" height="1021" alt="image" src="https://github.com/user-attachments/assets/716aba47-a0c8-441a-856a-ed2ab90554d8" />
+
 - Fake ip 127.0.0.1 cho domain web:
-<img width="1919" height="1020" alt="image" src="https://github.com/user-attachments/assets/e84bc270-5d8a-4856-b362-a1fa1d9124e4" />
+<img width="882" height="729" alt="image" src="https://github.com/user-attachments/assets/5b01d01e-c1bb-433e-bce0-a3599551f0b6" />
+
+- Cài đặt và khởi chạy Apache:
+<img width="1481" height="596" alt="image" src="https://github.com/user-attachments/assets/e42e32c8-5415-41c1-8e9e-ababe8a6c59a" />
+
+- Kiểm tra kết quả:
+<img width="1919" height="1004" alt="image" src="https://github.com/user-attachments/assets/f97e16e7-04f5-495e-8b5e-ab347761afa1" />
 
 ## 2. Cài đặt nodejs và nodered
+
+- Mở cmd chạy quyền Admin để kiểm tra:
+<img width="667" height="457" alt="image" src="https://github.com/user-attachments/assets/54548178-4d1b-48e7-a5af-138ce3cf11d9" />
+
+- Mở cmd chạy bằng quyền Admin rồi vào thư mục D:\nodejs, chạy lệnh: npm install -g --unsafe-perm node-red --prefix "D:\nodejs\nodered" :
+<img width="1006" height="438" alt="image" src="https://github.com/user-attachments/assets/2bd9f63d-33e6-4d43-978d-5af44954d7d3" />
+
 - Cài đặt Nodejs:
 <img width="460" height="352" alt="image" src="https://github.com/user-attachments/assets/2580324d-2b3f-493f-820f-130a8514101a" />
+
 - Cài đặt Nodered:
 <img width="1919" height="1024" alt="image" src="https://github.com/user-attachments/assets/d6d7cb8c-49c3-40be-a001-374031ecf116" />
-- Cài đặt service và chạy service `a1-nodered`:
-<img width="1065" height="681" alt="image" src="https://github.com/user-attachments/assets/aa99b38f-50f6-4b35-b43b-6203df0f3f97" />
+
+- Cài đặt service bằng nssm:
+<img width="1018" height="355" alt="image" src="https://github.com/user-attachments/assets/8dcfe1a0-fb2e-4136-96e1-ef74b15dc055" />
+
+- Chạy service "a1-nodered" bằng lệnh: nssm start a1-nodered
+<img width="1027" height="425" alt="image" src="https://github.com/user-attachments/assets/b7fc7566-53f1-4a9e-9a77-3d1368a9d54a" />
 
 ## 3. Tạo csdl trên mssql (sql server 2022), nhớ các thông số kết nối: ip, port, username, password, db_name, table_name
-- CSDL trong bài:
-<img width="718" height="311" alt="image" src="https://github.com/user-attachments/assets/f9f29140-59bd-4181-a196-612b9ff2c5b5" />
+- Tạo 1 Database:
+<img width="448" height="662" alt="image" src="https://github.com/user-attachments/assets/c57ccd89-e71b-43ce-8f9f-a2b7abe6475b" />
 
-<img width="926" height="236" alt="image" src="https://github.com/user-attachments/assets/45b72c30-aa18-4d1f-9eed-514159779ecf" />
+- Tạo User:
+<img width="1919" height="1019" alt="image" src="https://github.com/user-attachments/assets/92cc4046-381e-4316-b9e2-46ad05288ad4" />
+
+- Tạo Table SINH_VIEN:
+<img width="1919" height="1021" alt="image" src="https://github.com/user-attachments/assets/7d182c20-e989-437e-9dcd-7f3b675d9459" />
+
+<img width="758" height="259" alt="image" src="https://github.com/user-attachments/assets/efc17552-47bb-45c5-9a0b-fd5433234445" />
+
+- IP:
+<img width="950" height="200" alt="image" src="https://github.com/user-attachments/assets/a418fdfd-1682-41b0-82f1-3bdf7a60e793" />
+
+- PORT:
+<img width="1175" height="883" alt="image" src="https://github.com/user-attachments/assets/0ef30e64-7a74-4747-8c04-b6528bf49b5a" />
 
 ## 4. Cài đặt thư viện trên nodered
 - Truy cập Nodered bằng URL: http://localhost:1880
-<img width="1919" height="865" alt="image" src="https://github.com/user-attachments/assets/03e91cb5-3a48-4c82-bf89-64e926c4ebe5" />
-- Cài đặt các thư viện:
-<img width="1476" height="757" alt="image" src="https://github.com/user-attachments/assets/9d2e1bc5-bc62-48db-ba1d-aeb1d7aa9f98" />
-- Chỉnh sửa file: "setting.js" ở D:\nodejs\nodered\work\settings.js
-<img width="1008" height="274" alt="image" src="https://github.com/user-attachments/assets/fe29c26c-b3b8-4f34-992a-28fb273a0450" />
+<img width="1919" height="864" alt="image" src="https://github.com/user-attachments/assets/cc77a336-6c44-496f-bb96-b78eb3e72f99" />
 
+- Cài đặt các thư viện: node-red-contrib-mssql-plus, node-red-node-mysql, node-red-contrib-telegrambot, node-red-contrib-moment, node-red-contrib-influxdb, node-red-contrib-duckdns, node-red-contrib-cron-plus
 
+- Ở giao diện nodered => ấn vào dấu 3 gạch trên cùng => Manage palette => chọn mục install để cài đặt các thư viện theo yêu cầu:
 
+  + node-red-contrib-mssql-plus:
+<img width="606" height="110" alt="image" src="https://github.com/user-attachments/assets/f1b5aad5-9227-4467-8213-bcf35ea3f3fb" />
 
+  + node-red-node-mysql:
+<img width="605" height="110" alt="image" src="https://github.com/user-attachments/assets/2f417b8c-be40-492b-a304-b2cf7e53ae8b" />
 
+  + node-red-contrib-telegrambot:
+<img width="607" height="108" alt="image" src="https://github.com/user-attachments/assets/5dc89cbd-48a6-494a-bb5a-7232ec4f61f2" />
+
+  + node-red-contrib-moment:
+<img width="603" height="106" alt="image" src="https://github.com/user-attachments/assets/cc1ebea4-e587-42df-8774-cb5f829a6698" />
+
+  + node-red-contrib-influxdb:
+<img width="607" height="108" alt="image" src="https://github.com/user-attachments/assets/b9c42e76-4582-4713-9feb-d216fc30447a" />
+
+  + node-red-contrib-duckdns:
+<img width="600" height="105" alt="image" src="https://github.com/user-attachments/assets/9fbcd385-464a-44fd-b855-964f877c5a45" />
+
+  + node-red-contrib-cron-plus:
+<img width="604" height="104" alt="image" src="https://github.com/user-attachments/assets/cf334632-aa50-4db8-a578-2320af40388d" />
+
+- Chỉnh sửa file: "D:\nodejs\nodered\work\settings.js":
+<img width="1045" height="295" alt="image" src="https://github.com/user-attachments/assets/1667ef0f-aaa6-4c0c-8fdc-db7244cd8722" />
+
+- Mã hoá mật khẩu có thể dùng bằng: https://tms.tnut.edu.vn/pw.php
+<img width="572" height="140" alt="image" src="https://github.com/user-attachments/assets/b53c82db-1238-4ae8-8c3f-c4eacf014271" />
+
+- Chạy lại nodered:
+<img width="781" height="400" alt="image" src="https://github.com/user-attachments/assets/7f90f912-577f-4341-bd5b-6ca5c50a0d27" />
+
+- Truy cập lại nodered và nodered sẽ yêu cầu mật khẩu mới vào được giao diện cho admin: http://vuvietanh.com:1880
+<img width="1919" height="966" alt="image" src="https://github.com/user-attachments/assets/8b8c649a-e6a2-48e4-8542-71ef8d9202df" />
+
+## 5. Tạo api back-end bằng nodered
+- Tại flow1 trên nodered, sử dụng node `http in` và `http response` để tạo api
+
+- Đặt URL cho http in:
+<img width="1491" height="869" alt="image" src="https://github.com/user-attachments/assets/cb01ef1e-386c-46a4-bf93-1226665f4d49" />
+
+- 
 
 
 
