@@ -194,10 +194,12 @@ node "D:\nodejs\nodered\node_modules\node-red\red.js" -u "D:\nodejs\nodered\work
 <img width="1502" height="868" alt="image" src="https://github.com/user-attachments/assets/cab84fff-45d0-4fc3-a154-d4e9b82897ce" />
 
 - Debug:
-<img width="1499" height="865" alt="image" src="https://github.com/user-attachments/assets/34fa4135-b5e3-40e6-87b6-7963e23bfb26" />
+<img width="1509" height="866" alt="image" src="https://github.com/user-attachments/assets/4d5f5b9a-ad39-4cdb-b05f-c9891feac23a" />
 
 - Tạo flow gồm 4 node (nối dây):
 <img width="1919" height="867" alt="image" src="https://github.com/user-attachments/assets/417d66fa-eda7-4ca6-b3f3-c9ecb3c6b4cb" />
+
+
 
 
 
