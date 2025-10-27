@@ -182,11 +182,22 @@ node "D:\nodejs\nodered\node_modules\node-red\red.js" -u "D:\nodejs\nodered\work
 - Đặt URL cho http in:
 <img width="1491" height="869" alt="image" src="https://github.com/user-attachments/assets/cb01ef1e-386c-46a4-bf93-1226665f4d49" />
 
-- 
+- Function:
+<img width="1509" height="865" alt="image" src="https://github.com/user-attachments/assets/4a713211-bdf8-4565-8e12-b02dafdc3518" />
 
+- MSSQL:
+<img width="1500" height="861" alt="image" src="https://github.com/user-attachments/assets/869fd0d5-4ebb-46c9-8a7a-58bdf2a58ef8" />
 
+<img width="1493" height="869" alt="image" src="https://github.com/user-attachments/assets/4fbd0a68-0ae0-4cd2-9136-a635ebe2bfc4" />
 
+- http response:
+<img width="1502" height="868" alt="image" src="https://github.com/user-attachments/assets/cab84fff-45d0-4fc3-a154-d4e9b82897ce" />
 
+- Debug:
+<img width="1499" height="865" alt="image" src="https://github.com/user-attachments/assets/34fa4135-b5e3-40e6-87b6-7963e23bfb26" />
+
+- Tạo flow gồm 4 node (nối dây):
+<img width="1919" height="867" alt="image" src="https://github.com/user-attachments/assets/417d66fa-eda7-4ca6-b3f3-c9ecb3c6b4cb" />
 
 
 
