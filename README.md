@@ -180,7 +180,7 @@ node "D:\nodejs\nodered\node_modules\node-red\red.js" -u "D:\nodejs\nodered\work
 - Tại flow1 trên nodered, sử dụng node `http in` và `http response` để tạo api
 
 - Đặt URL cho http in:
-<img width="1491" height="869" alt="image" src="https://github.com/user-attachments/assets/cb01ef1e-386c-46a4-bf93-1226665f4d49" />
+<img width="1919" height="869" alt="image" src="https://github.com/user-attachments/assets/7242dc32-a380-4489-a4ca-52ffe823c6c5" />
 
 - Function:
 <img width="1509" height="865" alt="image" src="https://github.com/user-attachments/assets/4a713211-bdf8-4565-8e12-b02dafdc3518" />
