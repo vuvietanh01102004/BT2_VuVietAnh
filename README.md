@@ -199,6 +199,8 @@ node "D:\nodejs\nodered\node_modules\node-red\red.js" -u "D:\nodejs\nodered\work
 - Tạo flow gồm 4 node (nối dây):
 <img width="1919" height="867" alt="image" src="https://github.com/user-attachments/assets/417d66fa-eda7-4ca6-b3f3-c9ecb3c6b4cb" />
 
+- Chạy thử API:
+
 
 
 
